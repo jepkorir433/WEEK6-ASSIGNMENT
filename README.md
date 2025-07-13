@@ -41,9 +41,4 @@
 - All images in `recyclables_dataset/` were downloaded from free sources like [Pexels.com](https://www.pexels.com/).
 - Model was trained and evaluated in `Jupyter Notebook`.
 
----
-
-## 📬 Author
-
-**Sharon Jepkorir**  
-PLP Academy | 2025 AI Emerging Trends Project  
+ 
