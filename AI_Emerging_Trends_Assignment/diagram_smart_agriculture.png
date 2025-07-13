@@ -1,0 +1,94 @@
+Smart Agriculture Data Flow Diagram
+
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                    SMART AGRICULTURE SYSTEM                                              │
+│                                    Data Flow Architecture                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   IoT SENSORS   │    │  WEATHER DATA   │    │  CAMERA SYSTEM  │    │  MANUAL INPUT   │
+│                 │    │                 │    │                 │    │                 │
+│ • Soil Moisture │    │ • Temperature   │    │ • Crop Health   │    │ • Farmer Notes  │
+│ • pH Levels     │    │ • Humidity      │    │ • Disease Det.  │    │ • Observations  │
+│ • Nutrients     │    │ • Wind Speed    │    │ • Growth Stage  │    │ • Local Events  │
+│ • Temperature   │    │ • Precipitation │    │ • Pest Presence │    │ • Market Data   │
+└─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘
+          │                      │                      │                      │
+          └──────────────────────┼──────────────────────┼──────────────────────┘
+                                 │                      │
+                                 ▼                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │              EDGE GATEWAY                       │
+                    │                                                 │
+                    │ • Data Aggregation                              │
+                    │ • Signal Processing                             │
+                    │ • Initial Filtering                             │
+                    │ • Local Storage                                 │
+                    └─────────────────┬───────────────────────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │            LOCAL AI PROCESSING                 │
+                    │                                                 │
+                    │ • Real-time Image Analysis                     │
+                    │ • Sensor Data Interpretation                   │
+                    │ • Immediate Decision Making                    │
+                    │ • Alert Generation                             │
+                    └─────────────────┬───────────────────────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │              CONTROL SYSTEMS                   │
+                    │                                                 │
+                    │ • Irrigation Control                            │
+                    │ • Fertilizer Dispensing                        │
+                    │ • Pest Management                              │
+                    │ • Climate Control                              │
+                    └─────────────────┬───────────────────────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │              CLOUD ANALYTICS                   │
+                    │                                                 │
+                    │ • Historical Data Analysis                     │
+                    │ • Predictive Modeling                          │
+                    │ • Weather Pattern Analysis                     │
+                    │ • Yield Optimization                           │
+                    └─────────────────┬───────────────────────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │              DECISION SUPPORT                  │
+                    │                                                 │
+                    │ • Recommendations                              │
+                    │ • Risk Assessment                              │
+                    │ • Resource Planning                            │
+                    │ • Market Analysis                              │
+                    └─────────────────┬───────────────────────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────────────────────┐
+                    │              OUTPUT SYSTEMS                    │
+                    │                                                 │
+                    │ • Mobile App Notifications                     │
+                    │ • Dashboard Reports                            │
+                    │ • Automated Actions                            │
+                    │ • Data Export                                 │
+                    └─────────────────────────────────────────────────┘
+
+DATA FLOW SUMMARY:
+1. Sensors collect real-time environmental data
+2. Edge gateway aggregates and processes data locally
+3. AI algorithms analyze data for immediate decisions
+4. Control systems execute automated actions
+5. Cloud analytics provide long-term insights
+6. Decision support system offers recommendations
+7. Output systems deliver results to users
+
+BENEFITS:
+• Real-time monitoring and response
+• Reduced water and resource waste
+• Increased crop yield and quality
+• Predictive maintenance and planning
+• Data-driven decision making
+• Sustainable farming practices 

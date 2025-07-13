@@ -1,0 +1,1 @@
+This directory contains plastic images from the original dataset. 

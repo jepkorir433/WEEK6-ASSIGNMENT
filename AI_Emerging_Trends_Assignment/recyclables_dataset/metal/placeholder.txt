@@ -1,0 +1,1 @@
+This directory contains metal images from the original dataset. 
